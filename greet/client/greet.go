@@ -17,5 +17,5 @@ func doGreet(c pb.GreetServiceClient) {
 		log.Fatalf("Could not greet: %v\n", err)
 	}
 
-	log.Println("Greeting: %s\n", res)
+	log.Printf("Greeting: %s\n", res)
 }
