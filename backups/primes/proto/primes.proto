@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package  prime;
+
+option go_package = "go-grpc/primes/proto";
+
+message PrimeRequest {
+    int32 number = 1;
+}
+
+message PrimeResponse {
+    
+}
